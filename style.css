@@ -1,6 +1,6 @@
 html {
     background-color: #FBEEC8;
-    background-image: url("mhs_logo_grey.png");
+    background-image: url("imgs/mhs_logo_grey.png");
 }
 
 body {
@@ -25,4 +25,12 @@ h1 {
     color: rgb(0, 0, 5);
     position: relative;
     left: 200px;
+}
+
+#reset {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
 }
